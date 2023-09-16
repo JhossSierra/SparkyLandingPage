@@ -1,0 +1,35 @@
+@font-face {
+  font-family:'pixel Emulator' ;
+  src: url('../fonts/Pixel\ Emulator.otf');
+}
+
+:root {
+  
+  --color1: rgb(255, 122, 31);
+  --color2: rgb(255, 255, 255);
+  --color3: rgb(106, 161, 10);
+  --color4: rgb(0, 0, 0);
+}
+
+body{
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+   background-color: rgb(0, 0, 0);
+  position: absolute;
+ 
+}
+
+
+
+.planets{
+  position: absolute;
+  z-index: -1000;
+}
+
+.sparkymirando{
+  width: 500px;
+  top:62vh;
+  transform: rotateY(180deg);
+  position:sticky;
+}

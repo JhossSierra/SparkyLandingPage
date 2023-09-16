@@ -1,0 +1,17 @@
+
+.planet{
+    position:absolute;
+    bottom: -320px;
+    z-index:-100;
+    transform: translateY(200px);
+}
+
+.smllPlanet{
+ right: 700px;
+ transform: translateY(-100px);
+}
+
+.meteorite{
+  right: 450px;
+  transform: translateY(-300px) translateX(-100px) ;
+}
