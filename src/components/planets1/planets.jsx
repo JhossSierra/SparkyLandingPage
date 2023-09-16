@@ -17,7 +17,7 @@ export const Planets1 = () => {
     <img className='planets meteorite' src={meteoritos} alt="" />
     </Parallax> 
 
-    <Parallax speed={-100} >   
+    <Parallax speed={-100} translateX={['0px', '-50px']} >   
     <img className='planets smllPlanet' src={planeta3} alt="" />
     </Parallax> 
   </>
