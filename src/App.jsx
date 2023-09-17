@@ -23,19 +23,19 @@ const [hide, setHide] =useState('')
 setTimeout(() => {
   setCharged('charged')
   setHide('hide')
-}, 1500);
+}, 1700);
 
 
 
    return (
      <>
-     <Background/>
     <div className={hide}>
     
     <Skull/>
-    
     </div>
+
     <div className={charged} >
+     <Background/>
 
 
     
