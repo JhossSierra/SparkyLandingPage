@@ -1,0 +1,35 @@
+.uncharged{
+    display: none;
+    transform: translateY(1000px)
+    
+}
+
+.charged{
+    transform: translateY(0px)    
+    transition: 1s ease-in;
+}
+
+
+.hide{
+    transform: translateY(-1000px);
+    transition: 1s ease-out;
+  }
+
+
+
+  body::-webkit-scrollbar {
+    width: 10px;
+    
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: 
+  #1E3F20;
+    
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: 
+  #c800ff;
+    border-radius: 12px;
+  }

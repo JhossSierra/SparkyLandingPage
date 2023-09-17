@@ -8,17 +8,17 @@ import './planets.css'
 
 export const Planets1 = () => {
   return (<>
+    <Parallax speed={-100} translateX={['0px', '-50px']} >   
+    <img className='planets smllPlanet' src={planeta3} alt="" />
+    </Parallax> 
     
     <Parallax speed={-20}>
     <img className='planet' src={planeta1} alt="" />  
     </Parallax>
+
   
     <Parallax speed={-50} translateX={['0px', '300px']}  >   
     <img className='planets meteorite' src={meteoritos} alt="" />
-    </Parallax> 
-
-    <Parallax speed={-100} translateX={['0px', '-50px']} >   
-    <img className='planets smllPlanet' src={planeta3} alt="" />
     </Parallax> 
   </>
   )
