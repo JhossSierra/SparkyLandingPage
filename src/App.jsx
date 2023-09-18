@@ -17,13 +17,19 @@ function App() {
 
 const [charged, setCharged] =useState('uncharged')
 const [hide, setHide] =useState('')
-
+const [desapear, setdessapear] =useState(false)
 
 
 setTimeout(() => {
   setCharged('charged')
   setHide('hide')
+  
 }, 1700);
+
+setTimeout(() => {
+  setdessapear(true)
+  
+}, 5000);
 
 
 
@@ -31,7 +37,11 @@ setTimeout(() => {
      <>
     <div className={hide}>
     
-    <Skull/>
+    {
+      !desapear && <Skull/>
+
+    }
+    
     </div>
 
     <div className={charged} >

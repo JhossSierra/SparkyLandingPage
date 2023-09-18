@@ -7,3 +7,16 @@
     
 }
 
+
+
+@media only screen and (max-width: 800px){
+    .backgroundImg{
+        transform: rotate(90deg);
+     }
+  }
+  
+  
+  @media only screen and (max-width: 580px){
+    
+    
+  }
