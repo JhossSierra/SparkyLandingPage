@@ -9,9 +9,9 @@ function Title() {
          <div className='space'></div> 
         <div className='mainTitle'>
            
-            <img src={sparkicito} alt="" />
+            <img src={sparkicito} className='sparkicito' alt="" />
             <Bounce>
-            <h1 >Sparky <span className='Small'>art</span></h1>
+            <h1 id='title' >Sparky <span className='Small'>art</span></h1>
             {/* <span className='duplic'>Sparky <span className='Small'>art</span></span> */}
             </Bounce>
 

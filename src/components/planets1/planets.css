@@ -1,5 +1,6 @@
 
 .planet{
+  
     position:absolute;
     bottom: -320px;
     z-index:-100;
@@ -7,11 +8,16 @@
 }
 
 .smllPlanet{
- right: 700px;
+ left: 700px;
  transform: translateY(-100px);
 }
 
 .meteorite{
-  right: 450px;
+  right: 250px;
   transform: translateY(-300px) translateX(-100px) ;
+}
+
+@media only screen and (max-width: 400px){
+  
+  
 }

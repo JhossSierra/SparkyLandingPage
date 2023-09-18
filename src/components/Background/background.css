@@ -1,7 +1,7 @@
 .backgroundImg{
     position: fixed;
     top: 0;
-    
+    opacity: .5;
     overflow: hidden;
     z-index: -1000;
     

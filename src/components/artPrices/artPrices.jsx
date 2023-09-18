@@ -5,8 +5,8 @@ import { Parallax } from 'react-scroll-parallax'
 export const ArtPrices = () => {
   return (
    
-    <Parallax translateX={['400px', '-200px']}>
-    <h2> Art Prices </h2>
+    <Parallax translateX={['500px', '-100px']}>
+    <h2 id='artPrices'> Art Prices </h2>
     </Parallax>
 
   )

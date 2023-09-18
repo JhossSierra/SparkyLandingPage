@@ -7,6 +7,6 @@ import bgImg2 from '../../img/sky1.jpg'
 export const Background = () => {
   return (
   <>
-    <img className='backgroundImg' src={bgImg2} alt="" />
+    <img className='backgroundImg' src={bgImg2} alt=""  />
   </>
 )}

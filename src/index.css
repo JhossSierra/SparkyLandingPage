@@ -11,16 +11,21 @@
   --color4: rgb(0, 0, 0);
 }
 
+html{scroll-behavior: smooth;}
+
 body{
-  overflow-x: hidden;
+  overflow-x: clip;
   padding: 0;
   margin: 0;
    background-color: rgb(0, 0, 0);
   position: absolute;
-  font-family: 'pixel Emulator';
+  font-family: 'pixel Emulator','Courier New', Courier, monospace;
  
 }
-
+#root{
+  color: #000;
+  overflow-x: clip;
+}
 
 
 .planets{

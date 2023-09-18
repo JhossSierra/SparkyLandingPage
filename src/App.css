@@ -4,8 +4,7 @@
     
 }
 
-.charged{
-    transform: translateY(0px)    
+.charged{   
     transition: 1s ease-in;
 }
 
