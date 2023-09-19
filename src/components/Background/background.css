@@ -2,8 +2,8 @@
     position: fixed;
     top: 0;
     opacity: .5;
-    overflow: hidden;
     z-index: -1000;
+    
     
 }
 
@@ -11,7 +11,10 @@
 
 @media only screen and (max-width: 800px){
     .backgroundImg{
-        transform: rotate(90deg);
+        transform: rotate(90deg), translateX(-100px);
+        height: 100%;
+        
+        
      }
   }
   

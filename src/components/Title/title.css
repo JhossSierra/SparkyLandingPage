@@ -63,8 +63,7 @@ h1{
   }
 
   .mainTitle{
-    /* justify-content: left; */
-    margin: 0 auto;
+   margin: 0 10px;
   }
 
 }
@@ -72,15 +71,15 @@ h1{
 
 @media only screen and (max-width: 580px){
   h1{
-    font-size: 4em;
+    font-size: 3rem;
   }
 
   .sparkicito{
-    width: 60px;
+    width: 50px;
   }
   .Small{
-    font-size: 1.7rem;
-    transform: translateX(-50px);
+    font-size: 1.5rem;
+    transform: translateX(-50px) translateY(10px);
   }
   .mainTitle{
     /* justify-content: left; */

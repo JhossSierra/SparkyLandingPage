@@ -10,9 +10,10 @@
 
 
 .hide{
-    position: absolute;
-    transform: translateY(-3000px);
-    transition: 2s ease-out;
+    /* position: absolute; */
+    transform: translateY(-2000px);
+    opacity: 0;
+    transition: 1s ease-in;
   }
 
 

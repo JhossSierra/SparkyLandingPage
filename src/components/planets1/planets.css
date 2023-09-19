@@ -17,7 +17,38 @@
   transform: translateY(-300px) translateX(-100px) ;
 }
 
-@media only screen and (max-width: 400px){
-  
-  
+
+@media only screen and (max-width: 800px){
+  .planet{
+    width: 300px;
+    bottom: -100px;
+    
+  }
+
+  .smllPlanet{
+    left: 300px;
+    transform: translateY(-100px);
+   }
+
+  .meteorite{
+    width: 200px;
+    right: 10px;
+    transform: translateY(-300px) translateX(-100px) ;
+  }
+}
+
+
+
+@media only screen and (max-width: 580px){
+
+  .planet{
+    width: 200px;
+    bottom: 0;
+    
+  }
+  .meteorite{
+    width: 200px;
+    right: 50px;
+    transform: translateY(-300px) translateX(-100px) ;
+  }
 }

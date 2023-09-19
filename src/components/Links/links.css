@@ -53,14 +53,16 @@ a.links{
     a.links{
         font-size: 2rem;
     }
-  
+    .links{
+        margin-top: 50px;
+    }
   }
   
   
   @media only screen and (max-width: 580px){
 
     a.links{
-        font-size: 1.7rem;
+        font-size: 1.6rem;
     }
     
   }
