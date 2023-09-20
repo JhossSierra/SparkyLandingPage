@@ -9,7 +9,7 @@ import { Planets2 } from './components/planets2/planets2'
 import { ArtPrices } from './components/artPrices/artPrices'
 import sparky from './img/sparkymeteorito.png'
 import { Skull } from './components/skull/skull'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 
 
@@ -17,7 +17,7 @@ function App() {
 
 const [charged, setCharged] =useState('uncharged')
 const [hide, setHide] =useState('')
-const [desapear, setdessapear] =useState(false)
+const [disapear, setdissapear] =useState(false)
 
 
 setTimeout(() => {
@@ -27,7 +27,7 @@ setTimeout(() => {
 }, 1700);
 
 setTimeout(() => {
-  setdessapear(true)
+  setdissapear(true)
   
 }, 3000);
 
@@ -40,14 +40,12 @@ setTimeout(() => {
 
       <div className={hide}>
     {
-      !desapear && <Skull/>
+      !disapear && <Skull/>
     }
     </div>
     
     <div className={charged} >
      <Background/>
-
-
     
       <Title/>
     
@@ -56,6 +54,7 @@ setTimeout(() => {
     </ParallaxProvider>
 
       <Links/> 
+    
     <ParallaxProvider>
       <Planets2/>
     </ParallaxProvider>

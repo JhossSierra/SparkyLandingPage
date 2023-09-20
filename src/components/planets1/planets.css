@@ -26,6 +26,7 @@
   }
 
   .smllPlanet{
+    width: 150px;
     left: 300px;
     transform: translateY(-100px);
    }
@@ -47,8 +48,14 @@
     
   }
   .meteorite{
+    top: 100px;
     width: 200px;
     right: 50px;
     transform: translateY(-300px) translateX(-100px) ;
+  }
+
+  .smllPlanet{
+  width: 100px;
+  left: 200px;  
   }
 }

@@ -14,7 +14,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-reveal": "^1.2.2",
-    "react-scroll-parallax": "^3.4.2"
+    "react-scroll-parallax": "^3.4.2",
+    "react-tsparticles": "^1.42.2"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
