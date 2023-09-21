@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 110%;
+    height: 100%;
 
-    animation: rotation 700s infinite linear;
+    animation: rotation 2000s infinite linear;
   }

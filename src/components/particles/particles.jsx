@@ -11,10 +11,10 @@ function Particle() {
       params={{
         particles: {
           number: {
-            value: 1500,
+            value: 10,
             density: {
               enable: true,
-              value_area: 5000,
+              value_area: 100,
             },
           },
           line_linked: {

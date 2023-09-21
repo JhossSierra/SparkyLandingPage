@@ -1,0 +1,26 @@
+button{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+    
+}
+
+svg{
+    width: 40px;
+}
+
+.true{
+    transition: .5s ease-in;
+    opacity: 1;
+}
+
+.false{
+    transition: .2s ease-in;
+    opacity: 0;
+    
+}
