@@ -6,16 +6,24 @@ button{
     height: 70px;
     border-radius: 100%;
     border: none;
-    cursor: pointer;
+    background-color: rgb(170, 39, 13);
+    background: linear-gradient(180deg, rgb(217, 171, 4) 15%, rgb(200, 72, 17) 65%);
+    
+    box-shadow: 2px 2px 20px rgba(132, 1, 137, 0.604);
+
+    
     
 }
 
+
 svg{
+    color: rgb(108, 0, 111);
     width: 40px;
 }
 
 .true{
     transition: .5s ease-in;
+    cursor: pointer;
     opacity: 1;
 }
 
